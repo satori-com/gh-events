@@ -1,0 +1,202 @@
+body {
+    background: radial-gradient(circle at 51% 39%, #8d9eab, #22272b) fixed;
+    font-family: Roboto;
+}
+
+.App {
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 260px;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.console-control {
+    align-items: center;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    bottom: 60px;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    right: 20px;
+}
+
+.console {
+    position: fixed;
+}
+
+.console-control-text {
+    margin-left: 10px;
+}
+
+.console-item {
+    max-height: 600px !important;
+    max-width: 800px;
+    overflow: auto !important;
+    word-wrap: break-word;
+    width: 800px;
+}
+
+#github-container {
+    color: #ffffff;
+    padding-top: 45px;
+}
+
+#github-container-header {
+    align-items: center;
+    background: #000000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-flow: row;
+    height: 60px;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.github-container-header-item {
+    margin: 10px 20px;
+}
+
+#github-visual {
+    padding: 20px;
+}
+
+.event-name {
+    width: 150px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.event-count {
+    color: #FFF;
+    font-weight: 500;
+}
+
+.visual-item-container {
+    height: 150px;
+    margin-right: auto;
+    width: 100%;
+}
+
+.legend-item-indicator {
+    display: inline-block;
+    flex: 0 0 20px;
+    height: 20px;
+    margin-right: 15px;
+    vertical-align: middle;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.legend-item {
+    padding: 10px 0;
+}
+
+.legend-close {
+    height: 10px;
+    width: 10px;
+    border-left: 3px solid rgba(255, 255, 255, 0.85);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.85);
+    transform: rotate(45deg);
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+#repo-form-input {
+    -webkit-appearance: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    height: 50px;
+    border: 1px solid transparent;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+.side-menu {
+    top: 60px;
+    position: fixed;
+    width: 300px;
+    padding: 14px 35px;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    flex-flow: column;
+    overflow: auto;
+}
+
+a.side-menu-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+a.side-menu-link-event-item {
+    color: #0088CC;
+}
+
+.side-menu-content {
+    margin: 14px 0;
+    word-wrap: break-word;
+    padding-bottom: 60px;
+}
+
+.single-event-menu-header {
+    display: flex;
+    align-items: center;
+}
+
+.single-event-menu-content {
+    margin-left: 68px;
+    margin-bottom: 60px;
+}
+
+.single-event-title {
+    font-size: 18px;
+}
+
+.single-event-subtitle {
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.single-event-item {
+    margin: 10px 0;
+}
+
+.single-event-item:first-child {
+    margin-top: 0;
+}
+
+@media (max-device-width: 1024px) {
+    .console-control, .code-control-item {
+        display: none;
+    }
+
+    #github-container {
+        width: 100%;
+    }
+
+    .side-menu {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+

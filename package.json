@@ -1,0 +1,26 @@
+{
+  "name": "github-feed",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://gh.satori.com",
+  "dependencies": {
+    "@satori-sdk/component-library": "^0.0.5",
+    "d3": "^4.8.0",
+    "prop-types": "^15.5.8",
+    "qs": "^6.5.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1",
+    "rxjs": "^5.3.1",
+    "satori-rtm-sdk": "^1.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
