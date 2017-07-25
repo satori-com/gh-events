@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://gh.satori.com",
   "dependencies": {
-    "@satori-sdk/component-library": "^0.0.5",
+    "@satori-sdk/component-library": "^0.1.3",
     "d3": "^4.8.0",
     "prop-types": "^15.5.8",
     "qs": "^6.5.0",

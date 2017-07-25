@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import GithubContainer from './components/GithubContainer';
+import { AppShell, AppHeader } from '@satori-sdk/component-library';
 
 //styles
 import './App.css';
@@ -7,10 +8,11 @@ import './App.css';
 class App extends PureComponent {
   render() {
     return (
-      <div className="App">
+      <AppShell>
+        <AppHeader projectUrl="https://github.com/satori-com/gh-events" />
         <GithubContainer {...this.props} />
         <div className="overlay" />
-      </div>
+      </AppShell>
     )
   }
 }
