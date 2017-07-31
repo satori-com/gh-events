@@ -1,14 +1,3 @@
-body {
-    background: radial-gradient(circle at 51% 39%, #8d9eab, #22272b) fixed;
-    font-family: Roboto;
-}
-
-.App {
-    background-color: rgba(0, 0, 0, 0.3);
-    top: 260px;
-    min-height: 100vh;
-}
-
 a {
     text-decoration: none;
 }
@@ -53,27 +42,8 @@ h1 {
     width: 800px;
 }
 
-#github-container {
+.app {
     color: #ffffff;
-    padding-top: 45px;
-}
-
-#github-container-header {
-    align-items: center;
-    background: #000000;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    display: flex;
-    flex-flow: row;
-    height: 60px;
-    justify-content: space-between;
-    padding: 0 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.github-container-header-item {
-    margin: 10px 20px;
 }
 
 #github-visual {
@@ -188,10 +158,6 @@ a.side-menu-link-event-item {
 @media (max-device-width: 1024px) {
     .console-control, .code-control-item {
         display: none;
-    }
-
-    #github-container {
-        width: 100%;
     }
 
     .side-menu {

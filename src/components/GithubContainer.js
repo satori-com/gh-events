@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Github from './Github'
 import SideMenu from './SideMenu';
-import logo from '../resources/SatoriLogo.svg';
 import code from '../resources/code.svg';
 import { Console } from '@satori-sdk/component-library';
 import qs from 'qs';
@@ -127,10 +126,7 @@ class GithubContainer extends Component {
 
   render() {
     return (
-      <div id="github-container">
-        <div id="github-container-header">
-          <img src={logo} alt="Satori" />
-        </div>
+      <div>
         <SideMenu
           {...this.props}
           onChange={this.handleSearchOnChange.bind(this)}
