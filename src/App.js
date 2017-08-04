@@ -9,7 +9,10 @@ class App extends PureComponent {
   render() {
     return (
       <AppShell>
-        <AppHeader projectUrl="https://github.com/satori-com/gh-events" />
+        <AppHeader
+          hostUrl="https://www.satori.com"
+          projectUrl="https://github.com/satori-com/gh-events"
+        />
         <GithubContainer {...this.props} />
         <div className="overlay" />
       </AppShell>
