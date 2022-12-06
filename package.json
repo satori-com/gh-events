@@ -7,7 +7,7 @@
     "@satori-sdk/component-library": "^0.1.11",
     "d3": "^4.8.0",
     "prop-types": "^15.5.8",
-    "qs": "^6.5.0",
+    "qs": "^6.5.3",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1",
